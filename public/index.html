@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: infinityboy
+ * @Date: 2020-02-05 17:34:34
+ * @LastEditors: infinityboy
+ * @LastEditTime: 2020-09-21 11:20:02
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,6 +16,9 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover"
     />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
+    <meta http-equiv="expires" content="0" />
     <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
     <title>mb-pro</title>
   </head>
@@ -24,7 +35,7 @@
     <script>
       window.onload = function() {
         window.viewportUnitsBuggyfill.init({
-          hacks: window.viewportUnitsBuggyfillHacks
+          hacks: window.viewportUnitsBuggyfillHacks,
         });
       };
     </script>
