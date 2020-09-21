@@ -1,20 +1,23 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: infinityboy
+ * @Date: 2020-02-05 14:37:56
+ * @LastEditors: infinityboy
+ * @LastEditTime: 2020-09-21 10:30:24
+-->
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
-
 <style lang="postcss">
 img {
-    content: normal !important;
+  content: normal !important;
 }
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
